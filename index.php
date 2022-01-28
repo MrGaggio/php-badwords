@@ -24,6 +24,9 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
   <p>Quante case ci sono nella tua via?</p>
   <p><?php echo $via ?></p>
   <p><?php echo $prova ?></p>
-    
+  <p><?php echo $prova ?></p>
+  <p><?php echo $prova ?></p>
+  <p><?php echo $via ?></p>
+
 </body>
 </html>
