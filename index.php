@@ -28,5 +28,7 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
   <p><?php echo $prova ?></p>
   <p><?php echo $via ?></p>
 
+  <p>prova push</p>
+
 </body>
 </html>
