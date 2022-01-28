@@ -18,10 +18,12 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
 <body>
 
     <?php
-        $via = 'nella mia via ci sono 5 case prova'
+        $via = 'nella mia via ci sono 5 case';
+        $prova = 'la password per entrare in casa è';
     ?>
   <p>Quante case ci sono nella tua via?</p>
   <p><?php echo $via ?></p>
+  <p><?php echo $prova ?></p>
     
 </body>
 </html>
