@@ -18,20 +18,21 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
 <body>
 
     <?php
-        $via = 'nella mia via ci sono 5 case';
+        
         $prova = 'la password per entrare in casa è psw_casa';
         $lenString = strlen($prova);
 
-        echo $lenString;
-        // $password = $_GET['psw_casa'];
-        // str_replace($_GET, $prova, '*******')
+        $password = $_GET['password'];
+
+        str_replace($password, $prova, '*******')
 
 
         
     ?>
   <p>Quante case ci sono nella tua via?</p>
-  <p><?php echo $via ?></p>
+  
   <p><?php echo $prova ?></p>
+  <p>la lunghezza della stringa è di <?php echo $lenString?>   caratteri</p>
 
 
 
