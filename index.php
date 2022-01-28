@@ -22,16 +22,17 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
         $prova = 'la password per entrare in casa è psw_casa';
         $lenString = strlen($prova);
 
-        $password = $_GET['password'];
+        
 
-        str_replace($password, $prova, '*******')
+        echo str_replace("psw_casa", "***", $prova);
+
 
 
         
     ?>
-  <p>Quante case ci sono nella tua via?</p>
+
   
-  <p><?php echo $prova ?></p>
+  <p><?php echo $prova ?></p>   
   <p>la lunghezza della stringa è di <?php echo $lenString?>   caratteri</p>
 
 
