@@ -18,22 +18,29 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
 <body>
 
     <?php
-        
-        $prova = 'la password per entrare in casa è psw_casa';
-        $lenString = strlen($prova);
+
+        //il get intercetta nell'url la parola password e gli assegna il valore che segue all'=
+        $password = $_GET['password'];
+
+        // $string = 'la paraola password è presente nella stringa';
+
+
+        //echo stampa la variabile
+        echo $password;
+    
+        $lenString = strlen($password);
 
         
 
-        echo str_replace("psw_casa", "***", $prova);
+        echo str_replace('password', "***", $password);
 
 
 
         
     ?>
 
-  
-  <p><?php echo $prova ?></p>   
-  <p>la lunghezza della stringa è di <?php echo $lenString?>   caratteri</p>
+ 
+  <p>la lunghezza della stringa è di <?php echo $lenString?>   caratteri</p> -->
 
 
 
