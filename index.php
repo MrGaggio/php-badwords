@@ -22,21 +22,16 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
         //il get intercetta nell'url la parola password e gli assegna il valore che segue all'=
         $password = $_GET['password'];
 
-        // $string = 'la paraola password è presente nella stringa';
+
+        // la stringa che vado a stampare
+        $string = 'la paraola password è presente nella stringa';
+
+        // numero caratteri della stringa
+        $lenString = strlen($string);
 
 
-        //echo stampa la variabile
-        echo $password;
-    
-        $lenString = strlen($password);
-
-        
-
-        echo str_replace('password', "***", $password);
-
-
-
-        
+        // rimpiazza la prima parola con la seconda e la cerca nella stringa che sta al terzo posto
+        echo str_replace("password", "***", $string);
     ?>
 
  
